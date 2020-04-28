@@ -60,6 +60,7 @@
             // 
             // cboMarca
             // 
+            this.cboMarca.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cboMarca.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboMarca.FormattingEnabled = true;
             this.cboMarca.Location = new System.Drawing.Point(119, 182);
@@ -70,6 +71,7 @@
             // 
             // cboCategoria
             // 
+            this.cboCategoria.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cboCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboCategoria.FormattingEnabled = true;
             this.cboCategoria.Location = new System.Drawing.Point(119, 220);
@@ -80,6 +82,7 @@
             // 
             // lblCodigo
             // 
+            this.lblCodigo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblCodigo.AutoSize = true;
             this.lblCodigo.Location = new System.Drawing.Point(35, 78);
             this.lblCodigo.Name = "lblCodigo";
@@ -89,6 +92,7 @@
             // 
             // lblNombre
             // 
+            this.lblNombre.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblNombre.AutoSize = true;
             this.lblNombre.Location = new System.Drawing.Point(35, 115);
             this.lblNombre.Name = "lblNombre";
@@ -98,6 +102,7 @@
             // 
             // lblAsteriscoDesc
             // 
+            this.lblAsteriscoDesc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblAsteriscoDesc.AutoSize = true;
             this.lblAsteriscoDesc.Location = new System.Drawing.Point(35, 148);
             this.lblAsteriscoDesc.Name = "lblAsteriscoDesc";
@@ -107,6 +112,7 @@
             // 
             // lblMarca
             // 
+            this.lblMarca.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblMarca.AutoSize = true;
             this.lblMarca.Location = new System.Drawing.Point(35, 185);
             this.lblMarca.Name = "lblMarca";
@@ -116,6 +122,7 @@
             // 
             // lblCategoria
             // 
+            this.lblCategoria.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblCategoria.AutoSize = true;
             this.lblCategoria.Location = new System.Drawing.Point(35, 223);
             this.lblCategoria.Name = "lblCategoria";
@@ -125,6 +132,7 @@
             // 
             // txtCodigo
             // 
+            this.txtCodigo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtCodigo.Location = new System.Drawing.Point(119, 75);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(311, 20);
@@ -133,6 +141,7 @@
             // 
             // txtNombre
             // 
+            this.txtNombre.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtNombre.Location = new System.Drawing.Point(119, 112);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(311, 20);
@@ -141,6 +150,7 @@
             // 
             // txtDesc
             // 
+            this.txtDesc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtDesc.Location = new System.Drawing.Point(119, 145);
             this.txtDesc.Name = "txtDesc";
             this.txtDesc.Size = new System.Drawing.Size(311, 20);
@@ -148,6 +158,7 @@
             // 
             // txtURL
             // 
+            this.txtURL.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtURL.Location = new System.Drawing.Point(119, 257);
             this.txtURL.Name = "txtURL";
             this.txtURL.Size = new System.Drawing.Size(311, 20);
@@ -155,6 +166,7 @@
             // 
             // txtPrecio
             // 
+            this.txtPrecio.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtPrecio.Location = new System.Drawing.Point(119, 289);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(311, 20);
@@ -163,6 +175,7 @@
             // 
             // lblURL
             // 
+            this.lblURL.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblURL.AutoSize = true;
             this.lblURL.Location = new System.Drawing.Point(35, 260);
             this.lblURL.Name = "lblURL";
@@ -172,6 +185,7 @@
             // 
             // lblPrecio
             // 
+            this.lblPrecio.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblPrecio.AutoSize = true;
             this.lblPrecio.Location = new System.Drawing.Point(35, 292);
             this.lblPrecio.Name = "lblPrecio";
@@ -181,6 +195,7 @@
             // 
             // lblTitulo
             // 
+            this.lblTitulo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblTitulo.AutoEllipsis = true;
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -193,6 +208,7 @@
             // 
             // btnAgregarCategoria
             // 
+            this.btnAgregarCategoria.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAgregarCategoria.Image = global::CatalogoDigital.Properties.Resources.add_icon_icons_com_74429;
             this.btnAgregarCategoria.Location = new System.Drawing.Point(436, 212);
             this.btnAgregarCategoria.Name = "btnAgregarCategoria";
@@ -202,6 +218,7 @@
             // 
             // lblAsteriscoCod
             // 
+            this.lblAsteriscoCod.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblAsteriscoCod.AutoSize = true;
             this.lblAsteriscoCod.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAsteriscoCod.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -213,6 +230,7 @@
             // 
             // lblAsterisoNombre
             // 
+            this.lblAsterisoNombre.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblAsterisoNombre.AutoSize = true;
             this.lblAsterisoNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAsterisoNombre.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -224,6 +242,7 @@
             // 
             // lblAsteriscoMarca
             // 
+            this.lblAsteriscoMarca.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblAsteriscoMarca.AutoSize = true;
             this.lblAsteriscoMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAsteriscoMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -235,6 +254,7 @@
             // 
             // lblAsteriscoCategoria
             // 
+            this.lblAsteriscoCategoria.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblAsteriscoCategoria.AutoSize = true;
             this.lblAsteriscoCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAsteriscoCategoria.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -246,6 +266,7 @@
             // 
             // lblAsteriscoPrecio
             // 
+            this.lblAsteriscoPrecio.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblAsteriscoPrecio.AutoSize = true;
             this.lblAsteriscoPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAsteriscoPrecio.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -257,6 +278,7 @@
             // 
             // lblNota
             // 
+            this.lblNota.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblNota.AutoSize = true;
             this.lblNota.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNota.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -268,6 +290,7 @@
             // 
             // btnAgregarMarca
             // 
+            this.btnAgregarMarca.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAgregarMarca.Image = global::CatalogoDigital.Properties.Resources.add_icon_icons_com_74429;
             this.btnAgregarMarca.Location = new System.Drawing.Point(436, 174);
             this.btnAgregarMarca.Name = "btnAgregarMarca";
@@ -277,10 +300,11 @@
             // 
             // picTitulo
             // 
+            this.picTitulo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.picTitulo.ErrorImage = global::CatalogoDigital.Properties.Resources._1491253396_5document_image_82883__1_;
             this.picTitulo.ImageLocation = "https://icon-icons.com/icons2/217/PNG/48/add-item_25362.png";
             this.picTitulo.InitialImage = global::CatalogoDigital.Properties.Resources.load_a_icon_icons_com_50113;
-            this.picTitulo.Location = new System.Drawing.Point(19, 3);
+            this.picTitulo.Location = new System.Drawing.Point(18, 14);
             this.picTitulo.Name = "picTitulo";
             this.picTitulo.Size = new System.Drawing.Size(44, 50);
             this.picTitulo.TabIndex = 16;
@@ -288,6 +312,7 @@
             // 
             // btnCancelar
             // 
+            this.btnCancelar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCancelar.Image = global::CatalogoDigital.Properties.Resources.cancel_77947;
             this.btnCancelar.Location = new System.Drawing.Point(282, 330);
@@ -299,6 +324,7 @@
             // 
             // btnAceptar
             // 
+            this.btnAceptar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAceptar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAceptar.Image = global::CatalogoDigital.Properties.Resources.check_ok_accept_apply_1582;
             this.btnAceptar.Location = new System.Drawing.Point(190, 330);
@@ -312,7 +338,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(482, 403);
+            this.ClientSize = new System.Drawing.Size(481, 428);
             this.Controls.Add(this.lblNota);
             this.Controls.Add(this.lblAsteriscoPrecio);
             this.Controls.Add(this.lblAsteriscoCategoria);
