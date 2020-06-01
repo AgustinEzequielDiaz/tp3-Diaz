@@ -250,6 +250,11 @@ namespace CatalogoDigital
         {
             MessageBox.Show("Proximamente funcionara para ver los detalles, no se saco porque quedan mejor visualmente los botones");
         }
+
+        private void dgvArticulos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
 
