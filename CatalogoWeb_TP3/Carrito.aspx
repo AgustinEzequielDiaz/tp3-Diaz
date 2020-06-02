@@ -9,16 +9,18 @@
                 display: none;
             }
         </style>
-
-        <asp:GridView CssClass="table" ID="dgvCarrito" runat="server" AutoGenerateColumns="false" Height="259px" Width="473px" OnSelectedIndexChanged="dgvCarrito_SelectedIndexChanged" OnRowCommand="dgvCarrito_RowCommand">
-            <Columns>
-                <asp:BoundField HeaderText="Id" DataField="id" ItemStyle-CssClass="oculto" HeaderStyle-CssClass="oculto" />
-                <asp:BoundField HeaderText="Nombre" DataField="Nombre" />
-                <asp:BoundField HeaderText="Caracteristicas" DataField="Descripcion" />
-                <asp:BoundField HeaderText="Precio" DataField="Precio" />
-                <asp:ButtonField HeaderText="" ButtonType="Link" ControlStyle-CssClass="btn btn-danger" Text="Eliminar" CommandName="Select" />
-            </Columns>
-        </asp:GridView>
+        <div class="container">
+            <asp:GridView CssClass="table" ID="dgvCarrito" runat="server" AutoGenerateColumns="false" Height="200px" Width="400px" OnSelectedIndexChanged="dgvCarrito_SelectedIndexChanged" OnRowCommand="dgvCarrito_RowCommand">
+                <Columns>
+                    <asp:BoundField HeaderText="Id" DataField="id" ItemStyle-CssClass="oculto text-center" HeaderStyle-CssClass="oculto" />
+                    <asp:BoundField HeaderText="Nombre" DataField="Nombre" ItemStyle-CssClass="text-center" />
+                    <asp:BoundField HeaderText="Caracteristicas" DataField="Descripcion" />
+                    <asp:BoundField HeaderText="Precio" DataField="Precio" ItemStyle-CssClass="text-center"/>
+                    <%--<asp:BoundField HeaderText="Cantidad" DataField="Cantidad"/>--%>
+                    <asp:ButtonField HeaderText="" ButtonType="Link" ControlStyle-CssClass="btn btn-danger" Text="Eliminar" CommandName="Select" />
+                </Columns>
+            </asp:GridView>
+        </div>
     </div>
 
 </asp:Content>

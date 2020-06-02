@@ -20,11 +20,12 @@ namespace CatalogoWeb_TP3
         {
             try
             {
-                
+
                 lista = negocio.ListarArticulo2();
 
                 if (!IsPostBack)
-                { //pregunto si es la primera carga de la page
+                {   
+                    //pregunto si es la primera carga de la page
                     //esto es lo que necesitamos para el repeater.
                     repetidor.DataSource = lista;
                     repetidor.DataBind();
@@ -97,7 +98,6 @@ namespace CatalogoWeb_TP3
                     repetidor.DataSource = listaFiltrada;
                     repetidor.DataBind();
                 }
-
             }
             catch (Exception ex)
             {

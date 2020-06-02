@@ -3,8 +3,8 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <h1>Lista de productos</h1>
-    <asp:TextBox ID="txtBuscador" CssClass="mt-5" runat="server" OnTextChanged="Buscador_TextChanged" />
-    <%--<asp:TextBox runat="server" AutoPostBack="true" ID="txtNumeroPokemon" OnTextChanged="txtNumeroPokemon_TextChanged" />--%>
+    <asp:TextBox ID="txtFiltrar" CssClass="mt-5" runat="server" placeholder="Presione 'Enter' para filtrar" OnTextChanged="Filtrar_TextChanged" />
+    
 
     <div class="card-columns" style="margin-left: 10px; margin-right: 10px; margin-top:10px;">
         <asp:Repeater runat="server" ID="repetidor">
@@ -18,7 +18,8 @@
                         <p class="card-text text-left"><%#Eval("Descripcion")%></p>
                     </div>
                     <%--<a class="btn btn-primary" href="Carrito.aspx?idArt=<%#Eval("Id")%>">Seleccionar</a>--%>
-                    <asp:Button ID="btnSeleccionar" CssClass="btn btn-primary" Text="Seleccionar" CommandArgument='<%#Eval("Id")%>' CommandName="idArt" runat="server" OnClick="btnSeleccionar_Click" />
+                    <asp:Button ID="btnSeleccionar" Text="Seleccionar" ControlStyle-CssClass="btn btn-success mb-4" CommandArgument='<%#Eval("Id")%>' CommandName="idArt" runat="server" OnClick="btnSeleccionar_Click"  />
+                   
                 </div>
             </ItemTemplate>
         </asp:Repeater>
